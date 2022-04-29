@@ -4,7 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("aXAGxqJsGbwYk_u9T");
+        })();
+    </script>
     <title>DNet</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -24,7 +30,9 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+    <style>
+    .success_msg {display: none}
+    </style>
     <!-- Template Main CSS File -->
     <link href="assets/css/style1.css" rel="stylesheet">
 
@@ -45,15 +53,16 @@
         <h1><a href="index.html">Dineth Amarasighe</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-        <h2>I'm an <span>Inventor</span> &nbsp; <span>UI Designer</span> &nbsp; <span> Software Developer</span> from Sri Lanka</h2>
+        <h2>I'm an <span>Inventor</span> &nbsp; <span>UI Designer</span> &nbsp; <span> Software Developer</span> from
+            Sri Lanka</h2>
 
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link active" href="#header">Home</a></li>
                 <li><a class="nav-link" href="#about">About</a></li>
                 <li><a class="nav-link" href="#resume">Resume</a></li>
-<!--                <li><a class="nav-link" href="#services">Services</a></li>-->
-<!--                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>-->
+                <!--                <li><a class="nav-link" href="#services">Services</a></li>-->
+                <!--                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>-->
                 <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -123,13 +132,14 @@
                                 var age = Math.abs(year - 1970);
 
                                 //display the calculated age
-                                document.write( age + " years");
+                                document.write(age + " years");
                               </script>
                             </span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BICT Hons.</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BICT Hons.</span>
+                            </li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
                                 <span>dinethyasuru@gmail.com</span></li>
-<!--                            <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span>-->
+                            <!--                            <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span>-->
                             </li>
                         </ul>
                     </div>
@@ -223,7 +233,7 @@
                     <span class="skill">Graphic Designing (Vector/ Raster) <i class="val">85%</i></span>
                     <div class="progress-bar-wrap">
                         <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                             aria-valuemax="100" ></div>
+                             aria-valuemax="100"></div>
                     </div>
                 </div>
 
@@ -366,7 +376,8 @@
                             learns quickly and I would have no doubt in working with Dineth once again in the future <i
                                 class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQFZ4nNMFt58xw/profile-displayphoto-shrink_200_200/0/1552034859147?e=1656547200&v=beta&t=W9ub9eVX_-S6qtkMaJU13RNS3hyAmgUd9I7x6AIuWAU" class="testimonial-img" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQFZ4nNMFt58xw/profile-displayphoto-shrink_200_200/0/1552034859147?e=1656547200&v=beta&t=W9ub9eVX_-S6qtkMaJU13RNS3hyAmgUd9I7x6AIuWAU"
+                             class="testimonial-img" alt="">
                         <h3>Dinoo Gunasekera</h3>
                         <h4>Lecturer (Probationary) at General Sir John Kotelawala Defence University</h4>
                     </div>
@@ -377,11 +388,17 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            It's a great pleasure to write a recommendation to dineth, cause he was one of my best students when I was working as a temporary lecturer in the Faculty of Technology, University of Ruhuna.
-                            He is a quick learner and provides active participation in academic activities. I have seen that he is eagerly waiting to gain knowledge and ready to grab the opportunities. I think he can adapt to new technologies and new situations. So I highly recommend dineth to any organization and wish him good luck. <i
+                            It's a great pleasure to write a recommendation to dineth, cause he was one of my best
+                            students when I was working as a temporary lecturer in the Faculty of Technology, University
+                            of Ruhuna.
+                            He is a quick learner and provides active participation in academic activities. I have seen
+                            that he is eagerly waiting to gain knowledge and ready to grab the opportunities. I think he
+                            can adapt to new technologies and new situations. So I highly recommend dineth to any
+                            organization and wish him good luck. <i
                                 class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFNUAqrnTcyVA/profile-displayphoto-shrink_200_200/0/1517497101165?e=1656547200&v=beta&t=nGHU4Zwu6auEdWNqmkeqSrvE1uL5h3howFxr5vv9NCM" class="testimonial-img" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFNUAqrnTcyVA/profile-displayphoto-shrink_200_200/0/1517497101165?e=1656547200&v=beta&t=nGHU4Zwu6auEdWNqmkeqSrvE1uL5h3howFxr5vv9NCM"
+                             class="testimonial-img" alt="">
                         <h3>Hansila Sudasinghe</h3>
                         <h4>University of Colombo School of Computing</h4>
                     </div>
@@ -391,10 +408,17 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                I personally know Dineth as active and positive minded personality since he was one of my students from Department of ICT, Faculty of Technology, University of Ruhuna, Sri Lanka. He is a very friendly student and get along with others very well. He has a deep knowledge on ICT subjects and skills which are required to solve real world problems. He is confident about what he knows and always willing to learn new things to improve his knowledge and abilities. He is a smart student who knows his destination and the path to reach that point. I am confident that he will definitely be an asset to any ICT related organization.
+                            I personally know Dineth as active and positive minded personality since he was one of my
+                            students from Department of ICT, Faculty of Technology, University of Ruhuna, Sri Lanka. He
+                            is a very friendly student and get along with others very well. He has a deep knowledge on
+                            ICT subjects and skills which are required to solve real world problems. He is confident
+                            about what he knows and always willing to learn new things to improve his knowledge and
+                            abilities. He is a smart student who knows his destination and the path to reach that point.
+                            I am confident that he will definitely be an asset to any ICT related organization.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEFvj6b4niKoQ/profile-displayphoto-shrink_800_800/0/1604881389093?e=1656547200&v=beta&t=Dj5hxRSMVntdhK-rnb6bYDAIiu-279Be4pdPnwLFxA4" class="testimonial-img" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEFvj6b4niKoQ/profile-displayphoto-shrink_800_800/0/1604881389093?e=1656547200&v=beta&t=Dj5hxRSMVntdhK-rnb6bYDAIiu-279Be4pdPnwLFxA4"
+                             class="testimonial-img" alt="">
                         <h3>Waruni Hewage</h3>
                         <h4>Teaching Assistant at Auckland University of Technology</h4>
                     </div>
@@ -413,31 +437,45 @@
                             I would confidently recommend Dineth Amarasinghe to any company or academic institution. <i
                                 class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGqzByceRJktw/profile-displayphoto-shrink_200_200/0/1627401163356?e=1656547200&v=beta&t=kvep_dHr3jFwebb2DL4poqzR9kpDL-xt6Nn_tEGbq10" class="testimonial-img" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGqzByceRJktw/profile-displayphoto-shrink_200_200/0/1627401163356?e=1656547200&v=beta&t=kvep_dHr3jFwebb2DL4poqzR9kpDL-xt6Nn_tEGbq10"
+                             class="testimonial-img" alt="">
                         <h3>Iromi Paranavithana</h3>
-                        <h4>Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of Ruhuna</h4>
+                        <h4>Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of
+                            Ruhuna</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
 
-<div class="swiper-slide">
+                <div class="swiper-slide">
                     <div class="testimonial-item">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            
-                            It gives me great pleasure to recommend Mr. Dineth Amarasinghe of the Department of Information and Communication Technology, Faculty of Technology, University of Ruhuna. Mr. Dineth and I met when I was his Computer Networks ICT lecturer. Mr. Dineth distinguished himself by submitting a project on Information and Communication Technology that was unusually well researched and intriguing. In terms of programming competence and research skills, I would place him in the top 2% of students I've taught in the last five years.
-Mr. Dineth is highly intelligent with strong analytical abilities. In addition, his total intelligence is reflected in his course marks, which were far and away the best in the class. Mr. Dineth is an exceptional communicator. In the degree's discussion portions, he displayed his ability to speak clearly and articulately. Mr. Dineth is an expert at bringing the course curriculum to problem-solving scenarios. He always presented succinct explanations of his points of view, as well as clear and powerful supporting reasons. In group assignments, he also displayed good cooperation abilities.
-If his university success is any indication of how he will do as a graduate student, he will be a valuable asset to your organization. If I can be of any further assistance, or provide you with any further information, please do not hesitate to contact me.
-                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+
+                            It gives me great pleasure to recommend Mr. Dineth Amarasinghe of the Department of
+                            Information and Communication Technology, Faculty of Technology, University of Ruhuna. Mr.
+                            Dineth and I met when I was his Computer Networks ICT lecturer. Mr. Dineth distinguished
+                            himself by submitting a project on Information and Communication Technology that was
+                            unusually well researched and intriguing. In terms of programming competence and research
+                            skills, I would place him in the top 2% of students I've taught in the last five years.
+                            Mr. Dineth is highly intelligent with strong analytical abilities. In addition, his total
+                            intelligence is reflected in his course marks, which were far and away the best in the
+                            class. Mr. Dineth is an exceptional communicator. In the degree's discussion portions, he
+                            displayed his ability to speak clearly and articulately. Mr. Dineth is an expert at bringing
+                            the course curriculum to problem-solving scenarios. He always presented succinct
+                            explanations of his points of view, as well as clear and powerful supporting reasons. In
+                            group assignments, he also displayed good cooperation abilities.
+                            If his university success is any indication of how he will do as a graduate student, he will
+                            be a valuable asset to your organization. If I can be of any further assistance, or provide
+                            you with any further information, please do not hesitate to contact me.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG_b_rA5-dOVg/profile-displayphoto-shrink_200_200/0/1628242274841?e=1656547200&v=beta&t=6ifGZkAGIbd5cJk2g-3WX6Yrh2oR4AhfVXxSc2plM1s" class="testimonial-img" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG_b_rA5-dOVg/profile-displayphoto-shrink_200_200/0/1628242274841?e=1656547200&v=beta&t=6ifGZkAGIbd5cJk2g-3WX6Yrh2oR4AhfVXxSc2plM1s"
+                             class="testimonial-img" alt="">
                         <h3>Dinithi Vithanage</h3>
-                        <h4>Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of Ruhuna</h4>
+                        <h4>Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of
+                            Ruhuna</h4>
                     </div>
                 </div><!-- End testimonial item -->
-
-
-
 
 
             </div>
@@ -467,7 +505,7 @@ If his university success is any indication of how he will do as a graduate stud
                 <div class="resume-item pb-0">
                     <h4>First Place</h4>
                     <p><em>New invention competition @ Asoka College Colombo-10. </em></p>
-                    
+
                 </div>
 
                 <h3 class="resume-title">Education</h3>
@@ -475,7 +513,9 @@ If his university success is any indication of how he will do as a graduate stud
                     <h4>Reading for BICT Degree</h4>
                     <h5>2017 - 2022</h5>
                     <p><em>University of Ruhuna, Sri Lanka</em></p>
-                    <p>Bachelor of Information communication technology degree with honors. Specialized in Programming and Data mining with AI technologies. For multidisciplinary subjects, Human Resouce Management, Management, Accounts, and Business Economics subjects are included.</p>
+                    <p>Bachelor of Information communication technology degree with honors. Specialized in Programming
+                        and Data mining with AI technologies. For multidisciplinary subjects, Human Resouce Management,
+                        Management, Accounts, and Business Economics subjects are included.</p>
                 </div>
                 <div class="resume-item">
                     <h4>GCE A/L Examination</h4>
@@ -487,21 +527,23 @@ If his university success is any indication of how he will do as a graduate stud
                     <h4>Certificated in Web Designing</h4>
                     <h5>2016</h5>
                     <p><em>University of Kelaniya</em></p>
-                    <p>Adobe Dreamweaver CC2014 for Designing and Complete Site buildup using DW platform.For the Frameworks JOOMLA were used. Adobe Flash CC2014 for the Animation and GIF creations. </p>
+                    <p>Adobe Dreamweaver CC2014 for Designing and Complete Site buildup using DW platform.For the
+                        Frameworks JOOMLA were used. Adobe Flash CC2014 for the Animation and GIF creations. </p>
                 </div>
-                
+
                 <h3 class="resume-title">Participations</h3>
                 <div class="resume-item">
                     <h4>FOT Invo</h4>
                     <h5>2020</h5>
                     <p><em>Faculty of Technology, University of Ruhuna</em></p>
-                    <p>Java based schedulable IOT controller with 8 terminals and able to handle 230v 5A  power.</p>
+                    <p>Java based schedulable IOT controller with 8 terminals and able to handle 230v 5A power.</p>
                 </div>
                 <div class="resume-item">
                     <h4>Pera Inventra</h4>
                     <h5>2020</h5>
                     <p><em>University of Peradeniya, Sri Lanka</em></p>
-                    <p>IOT power controller using Arduino and able to work as a multi thereded program when connect with the server. </p>
+                    <p>IOT power controller using Arduino and able to work as a multi thereded program when connect with
+                        the server. </p>
                 </div>
                 <div class="resume-item">
                     <h4>INNOTECH</h4>
@@ -513,7 +555,8 @@ If his university success is any indication of how he will do as a graduate stud
                     <h4>HackaDev National Invention Challange</h4>
                     <h5>2020</h5>
                     <p><em>#Team TechPirates</em></p>
-                    <p>Stickable power controller using IOT and Embedded Circuits to reduce the power and water wastage.</p>
+                    <p>Stickable power controller using IOT and Embedded Circuits to reduce the power and water
+                        wastage.</p>
                 </div>
                 <div class="resume-item">
                     <h4>Àkura School Management System</h4>
@@ -521,7 +564,7 @@ If his university success is any indication of how he will do as a graduate stud
                     <p><em>Virtusa Corporation</em></p>
                     <p>Schoold management system's maintain Ananda College database. </p>
                 </div>
-                
+
             </div>
             <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
@@ -530,7 +573,8 @@ If his university success is any indication of how he will do as a graduate stud
                     <h5>2016-2017</h5>
                     <p><em>Technology & Computer Training Institute - Gampaha </em></p>
                     <p>
-                        For the course  Vector graphics, Raster graphics, Digital and Offset printig michanisms, Color Symbolysm, Soft Skils and Communication and  third-party plugins and tools were included. 
+                        For the course Vector graphics, Raster graphics, Digital and Offset printig michanisms, Color
+                        Symbolysm, Soft Skils and Communication and third-party plugins and tools were included.
                     </p>
                 </div>
                 <div class="resume-item">
@@ -552,7 +596,8 @@ If his university success is any indication of how he will do as a graduate stud
                     <h5>2022</h5>
                     <p><em>American Corner - Matara </em></p>
                     <p>
-                        Improve the woman's digital literacy skills in Microsoft office Word, Excel, Powerpoint and Web applications with the social media
+                        Improve the woman's digital literacy skills in Microsoft office Word, Excel, Powerpoint and Web
+                        applications with the social media
                     </p>
                 </div>
                 <h3 class="resume-title">Leadership and Volunteerism</h3>
@@ -569,7 +614,7 @@ If his university success is any indication of how he will do as a graduate stud
                     <h5>2021 - Present</h5>
                     <p><em>American Corner Matara</em></p>
                     <p>
-                       Discuss and Teach about ICT and related technologies to students.
+                        Discuss and Teach about ICT and related technologies to students.
                     </p>
                 </div>
 
@@ -579,7 +624,8 @@ If his university success is any indication of how he will do as a graduate stud
                     <h5>2020 - Present</h5>
                     <p><em>ICT Students' Circle, Faculty of Technology, University of Ruhuna</em></p>
                     <p>
-                       Design the the society banners, posters and other artworks. Arrange the design contents and ensure that there is no violation against with the society constitution.  
+                        Design the the society banners, posters and other artworks. Arrange the design contents and
+                        ensure that there is no violation against with the society constitution.
                     </p>
                 </div>
                 <div class="resume-item">
@@ -587,15 +633,15 @@ If his university success is any indication of how he will do as a graduate stud
                     <h5>2015 - 2016</h5>
                     <p><em>Ananda College Engineering Technology Association IMPREZA</em></p>
                     <p>
-                        <ul>
-                            <li>Design the event certificates</li>
-                            <li>Manage the event Schedule</li>
-                            <li>Gather participants information via a system</li>
-                        </ul>
+                    <ul>
+                        <li>Design the event certificates</li>
+                        <li>Manage the event Schedule</li>
+                        <li>Gather participants information via a system</li>
+                    </ul>
                     </p>
                 </div>
 
-            
+
             </div>
         </div>
 
@@ -870,10 +916,12 @@ If his university success is any indication of how he will do as a graduate stud
                     <h3>Social Profiles</h3>
                     <div class="social-links">
                         <a href="https://twitter.com/DNet_28" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="https://www.facebook.com/yasuru.d.amarasinghe/" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.facebook.com/yasuru.d.amarasinghe/" class="facebook"><i
+                                class="bi bi-facebook"></i></a>
                         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-<!--                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>-->
-                        <a href="https://www.linkedin.com/in/yasurudineth/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <!--                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>-->
+                        <a href="https://www.linkedin.com/in/yasurudineth/" class="linkedin"><i
+                                class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -895,7 +943,7 @@ If his university success is any indication of how he will do as a graduate stud
             </div>
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <form method="post" role="form" class="php-email-form mt-4">
             <div class="row">
                 <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -908,7 +956,8 @@ If his university success is any indication of how he will do as a graduate stud
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="msg" rows="5" placeholder="Message"
+                          required></textarea>
             </div>
             <div class="my-3">
                 <div class="loading">Loading</div>
@@ -916,14 +965,19 @@ If his university success is any indication of how he will do as a graduate stud
                 <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
             <div class="text-center">
-                <button type="submit">Send Message</button>
+                <button type="button" class="btn btn-info" onclick="sendmail()">Send Message</button>
             </div>
+            <br/>
+            <div class="alert alert-success success_msg" id="success_msg">
+                <strong>Success!</strong> Indicates a successful or positive action.
+            </div>
+
         </form>
 
     </div>
 </section><!-- End Contact Section -->
 
-    <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+<!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
 
 
 <!-- Vendor JS Files -->
@@ -940,4 +994,37 @@ If his university success is any indication of how he will do as a graduate stud
 
 </body>
 
+<script>
+
+    function sendmail(param) {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+
+        if (name == "" || email == "") {
+            alert("Please Enter Name and Email")
+        } else {
+            var temParam = {
+                from_name: document.getElementById("name").value,
+                to_name: "Dineth",
+                subject: document.getElementById("subject").value,
+                message: document.getElementById("msg").value,
+                email: document.getElementById("email").value,
+            };
+
+            emailjs
+                .send("service_iq4inij", "template_ylcrbfs", temParam)
+                .then(function (res) {
+                    console.log("success", res.status);
+                    document.getElementById("subject").value = "";
+                    document.getElementById("msg").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("name").value = "";
+                    document.getElementById("success_msg").style.display = "block";
+                    $(document).ready(function () {
+                        $("#success_msg").fadeOut(2000);
+                    });
+                });
+        }
+    }
+</script>
 </html>
